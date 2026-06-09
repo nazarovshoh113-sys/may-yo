@@ -1,0 +1,32 @@
+.cart{
+    border: 1px solid black;
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    transition: all 2s;
+    cursor: pointer;
+    margin-left: 50px;
+}
+img{
+    width: 250px;
+    border-radius: 10px;
+}
+.cart:hover{
+    scale: 107%;
+    transition: all 2s;
+    background-color: antiquewhite;
+}
+.a{
+    width: 90%;
+    margin:auto;
+}
+a{
+    margin-left: 50px;
+    text-decoration: none;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
